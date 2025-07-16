@@ -126,7 +126,7 @@ if makefolder and isfolder and writefile and isfile then
     end)
 end
 
-currentVersion = "6.3.2"
+currentVersion = "1.0.0"
 
 ScaledHolder = Instance.new("Frame")
 Scale = Instance.new("UIScale")
@@ -324,7 +324,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "Infinite Yield FE v" .. currentVersion
+Title.Text = "Dev Nick v" .. currentVersion
 
 do
 	local emoji = ({
